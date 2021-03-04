@@ -16,7 +16,7 @@ namespace TurpåBiblo
                 Console.Clear();
                 Console.WriteLine("\n Number of available books " + AvailableBooks.Count + "\n");
                 Console.WriteLine("========Hello========\nPlease choose from the following,\nPress 1 to loan books\nPress 2 to turn in books\nPress 3 to see the latest book you have loaned \nPress 4 to check out"); // Console Writeline that presents the options
-                int choice = Convert.ToInt32(Console.ReadLine());                                                    // Reads our choice, and gives choice a value to be used in the switch case
+                int choice = Convert.ToInt32(Console.ReadLine());                                                    // Reads our choice, and gives "choice" a value to be used in the switch case
                 switch (choice)                                                                                      // a switch case containing multiple options
                 {                                                                                                    
                     case 1:                                                                                          // First case in the switch case, contains the loaning function
