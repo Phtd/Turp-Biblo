@@ -47,7 +47,6 @@ namespace TurpåBiblo
                             else if (moreChoice == "n")                                                             
                             {                                                                                        // Sets DoneLoan to true so we come out of the loop
                                 DoneLoan = true;
-
                             }
                         }
                         break;                                                                                       // A break, that will return the user back out of the switch case
